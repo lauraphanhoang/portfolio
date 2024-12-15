@@ -1,4 +1,4 @@
-import image from "../assets/pp.jpg";
+import image from "../../public/images/pp.jpg";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
@@ -21,11 +21,11 @@ const Header = () => {
                 }}
               >
                 <li>
-                  <Link to="/">A propos</Link>
+                  <Link to="/">À propos</Link>
                 </li>
                 <li>
                   {" "}
-                  <Link to="/projets">Developpement Web</Link>
+                  <Link to="/projets">Développement Web</Link>
                 </li>
                 <li>
                   {" "}

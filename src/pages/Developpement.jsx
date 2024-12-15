@@ -1,9 +1,9 @@
 // Images
-import marvel from "../assets/marvel-homepage.png";
-import vinted from "../assets/Vinted-frontend.png";
-import deliveroo from "../assets/Deliveroo-frontend.png";
-import tripadvisor from "../assets/tripadvisor-page.png";
-import netflix from "../assets/netflix-maquette.png";
+import marvel from "../../public/images/marvel-homepage.png";
+import vinted from "../../public/images/Vinted-frontend.png";
+import deliveroo from "../../public/images/Deliveroo-frontend.png";
+import tripadvisor from "../../public/images/tripadvisor-page.png";
+import netflix from "../../public/images/netflix-maquette.png";
 
 const Project = () => {
   return (
