@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import js from "../assets/javascript.png";
 import css from "../assets/css.png";
-import node from "../assets/node.js.png";
+import node from "../assets/Nodejs.png";
 import react from "../assets/react.png";
 import html from "../assets/HTML5.png";
 import reactnative from "../assets/react-native.png";
