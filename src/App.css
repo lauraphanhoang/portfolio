@@ -56,6 +56,8 @@
 
 header {
   margin: 40px;
+  max-width: 1000px;
+  margin: auto;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -91,20 +93,20 @@ h4 {
 .photo {
   width: 200px;
   height: 200px;
+
   object-fit: cover;
   border-radius: 50%;
 }
 
 .introduction {
-  /* background-color: orange; */
+  max-width: 1000px;
   display: flex;
-
   align-items: flex-end;
   gap: 30px;
   margin-bottom: 50px;
 }
 .navigation {
-  /* background-color: pink; */
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -128,11 +130,12 @@ a {
 }
 
 .logo {
+  /* background-color: pink; */
   display: flex;
-  /* justify-content: center; */
-  height: 50px;
+  flex-wrap: wrap;
   align-items: center;
   gap: 30px;
+  margin-bottom: 20px;
 }
 .logo img {
   height: 50px;
@@ -189,4 +192,17 @@ a {
   justify-content: flex-end;
   margin-top: 100px;
   gap: 5px;
+}
+
+@media (max-width: 820px) {
+  .introduction {
+    display: block;
+    font-size: 10px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin: auto;
+  }
 }
