@@ -189,11 +189,6 @@ a {
   .image-container {
     flex-wrap: wrap;
   }
-  /* .description {
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; */
 }
 
 @media (max-width: 768px) {
@@ -207,5 +202,40 @@ a {
 @media (max-width: 480px) {
   .image-container {
     max-width: 300px;
+    width: 100%;
+  }
+  @media (max-width: 390px) {
+    .introduction {
+      /* background-color: violet; */
+      display: block;
+    }
+    .photo {
+      width: 100px;
+      height: 100px;
+    }
+    .navigation nav {
+      /* background-color: pink; */
+      font-size: 15px;
+      flex-direction: column;
+      text-decoration: underline;
+    }
+
+    .logo img {
+      height: 30px;
+    }
+    p {
+      font-size: 12px;
+    }
+
+    .project-container {
+      /* background-color: orange; */
+      max-width: 390px;
+      margin: auto;
+    }
+
+    .image-container img {
+      width: 300px;
+      border-radius: 10px;
+    }
   }
 }
