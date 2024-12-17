@@ -75,6 +75,7 @@ const Project = () => {
           <div className="description">
             <h2>TripAdvisor</h2>
             <p>Réplique</p>
+            <p>Responsive</p>
             <p>Récupération de données </p>
             <br />
             <p>Projet Front-End HTML/CSS</p>
@@ -89,8 +90,8 @@ const Project = () => {
           </a>
           <div className="description">
             <h2>Netflix</h2>
+            <p>Réplique</p>
             <p>Récupération de données </p>
-            <p>Replique</p>
             <br />
             <p style={{ fontStyle: "italic" }}>Projet Front-End avec React</p>
           </div>
