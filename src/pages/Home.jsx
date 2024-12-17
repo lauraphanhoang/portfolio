@@ -7,11 +7,12 @@ import react from "../assets/react.png";
 import html from "../assets/HTML5.png";
 import reactnative from "../assets/react-native.png";
 import mongoDB from "../assets/mongoDB.webp";
+import vsc from "../assets/VSC.png";
 
 const Home = () => {
   return (
     <div className="container">
-      <h2>DÉVELOPPEUR FULLSTACK</h2>
+      <h2>DEVELOPPEUR FULLSTACK</h2>
 
       <div className="presentation">
         <p>
@@ -41,6 +42,7 @@ const Home = () => {
           <img src={mongoDB} alt="mongoDB" />
           <img src={react} alt="logo react" />
           <img src={reactnative} alt="logo react native" />
+          <img src={vsc} alt="logo vsc" />
         </div>
         <p>
           J'aimerais approfondir mes connaissances et continuer à développer mes

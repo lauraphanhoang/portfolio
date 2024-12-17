@@ -22,50 +22,52 @@ import image21 from "../../public/images/portfolio/21.jpg";
 const Communication = () => {
   return (
     <div className="container">
-      <div className="work">
-        <div className="pdf">
-          <img src={image2} alt="" />
-          <img src={image3} alt="" />
-          <img src={image4} alt="" />
-          <img src={image5} alt="" />
-          <img src={image6} alt="" />
-          <img src={image7} alt="" />
+      <div className="margin">
+        <div className="work">
+          <div className="pdf">
+            <img src={image2} alt="" />
+            <img src={image3} alt="" />
+            <img src={image4} alt="" />
+            <img src={image5} alt="" />
+            <img src={image6} alt="" />
+            <img src={image7} alt="" />
+          </div>
         </div>
-      </div>
 
-      <div className="work">
-        <div className="pdf">
-          <img src={image8} alt="" />
-          <img src={image9} alt="" />
-          <img src={image10} alt="" />
-          <img src={image11} alt="" />
-          <img src={image12} alt="" />
+        <div className="work">
+          <div className="pdf">
+            <img src={image8} alt="" />
+            <img src={image9} alt="" />
+            <img src={image10} alt="" />
+            <img src={image11} alt="" />
+            <img src={image12} alt="" />
+          </div>
         </div>
-      </div>
 
-      <div className="work">
-        <div className="pdf">
-          {" "}
-          <img src={image13} alt="" />
-          <img src={image14} alt="" />
-          <img src={image15} alt="" />
+        <div className="work">
+          <div className="pdf">
+            {" "}
+            <img src={image13} alt="" />
+            <img src={image14} alt="" />
+            <img src={image15} alt="" />
+          </div>
         </div>
-      </div>
 
-      <div className="work">
-        <div className="pdf">
-          {" "}
-          <img src={image16} alt="" />
-          <img src={image17} alt="" />
-          <img src={image18} alt="" />
+        <div className="work">
+          <div className="pdf">
+            {" "}
+            <img src={image16} alt="" />
+            <img src={image17} alt="" />
+            <img src={image18} alt="" />
+          </div>
         </div>
-      </div>
-      <div className="work">
-        <div className="pdf">
-          {" "}
-          <img src={image19} alt="" />
-          <img src={image20} alt="" />
-          <img src={image21} alt="" />
+        <div className="work">
+          <div className="pdf">
+            {" "}
+            <img src={image19} alt="" />
+            <img src={image20} alt="" />
+            <img src={image21} alt="" />
+          </div>
         </div>
       </div>
     </div>
