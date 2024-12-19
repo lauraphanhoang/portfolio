@@ -48,11 +48,9 @@ const Home = () => {
           J'aimerais approfondir mes connaissances et continuer à développer mes
           compétences dans ce domaine. Je suis donc à la recherche d’une{" "}
           <span className="alternance">
-            alternance de 18 mois, au rythme de 3 semaines en entreprise et 1
-            semaine en école,{" "}
+            alternance de 15-19 mois, au rythme de 3 semaines en entreprise et 1
+            semaine en école.{" "}
           </span>{" "}
-          avec un démarrage en bootcamp de 10 semaines, qui a débuté en octobre
-          2024.
         </p>
       </div>
 
