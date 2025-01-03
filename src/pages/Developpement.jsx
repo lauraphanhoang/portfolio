@@ -4,12 +4,41 @@ import vinted from "../../public/images/Vinted-frontend.png";
 import deliveroo from "../../public/images/Deliveroo-frontend.png";
 import tripadvisor from "../../public/images/tripadvisor-page.png";
 import netflix from "../../public/images/netflix-maquette.png";
+import backoffice from "../assets/Backoffice.gif";
+import user from "../assets/User.gif";
 
 const Project = () => {
   return (
     <div className="project-container">
       <h1>PROJETS</h1>
       <div className="margin">
+        <div className="image-container">
+          <a href="https://quizzmeup.netlify.app/">
+            <div className="images">
+              <img src={backoffice} alt="backoffice gif" />
+            </div>
+            <div className="images">
+              <img src={user} alt="user gif" />
+            </div>
+          </a>
+          <div className="description">
+            <h2>Quizz Me Up</h2>
+            <p style={{ textDecoration: "underline" }}>
+              MVP/prototype pour une startup
+            </p>
+            <p>
+              Projet de deux semaines en groupe : création d'un site Web pour
+              gérer des quizz pour un organisme de formation.{" "}
+            </p>
+            <p></p>
+
+            <br></br>
+            <p style={{ fontStyle: "italic" }}>
+              Projet FullStack avec React, Node.js, Express.js, Axios, MongoDB,
+              Netlify, Northflank
+            </p>
+          </div>
+        </div>
         <div className="image-container">
           <a href="https://marvel-lph-project.netlify.app/">
             <div className="images">
@@ -78,7 +107,7 @@ const Project = () => {
             <p>Responsive</p>
             <p>Récupération de données </p>
             <br />
-            <p>Projet Front-End HTML/CSS</p>
+            <p style={{ fontStyle: "italic" }}>Projet Front-End HTML/CSS</p>
           </div>
         </div>
 

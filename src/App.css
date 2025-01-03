@@ -134,6 +134,7 @@ a {
   max-width: 500px;
   display: flex;
   justify-content: space-between;
+  margin: 5px 0;
   /* border: black 1px solid; */
 }
 .image-container img {
@@ -211,8 +212,6 @@ a {
 @media (max-width: 415px) {
   .image-container {
     max-width: 300px;
-    /* width: 100%; */
-    /* background-color: pink; */
     padding: 15px;
   }
 
