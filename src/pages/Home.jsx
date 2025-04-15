@@ -16,8 +16,9 @@ const Home = () => {
 
       <div className="presentation">
         <p>
-          Je m'appelle Laura PHAN-HOANG, intitialement en Communication digitale
-          je suis maintenant jeune développeuse en reconversion.
+          Je m'appelle Laura PHAN-HOANG. Après plusieurs années en communication
+          digitale, j’ai décidé de me reconvertir dans le développement web, un
+          domaine qui me permet de conjuguer créativité et logique.
         </p>
         <br />
         <p>
@@ -27,11 +28,15 @@ const Home = () => {
             <u>Le Reacteur</u>
           </a>
           , j'explore les technologie web telles que HTML, CSS, JavaScript,
-          Node.js, React et React Native. Cette formation a suscité mon intérêt
-          pour le développement web, notamment le front orienté UX. Je suis
-          particulièrement intéressée par l'aspect visuel des sites web,
-          l'identité visuelle et l'éditorial en général. Les technologies sur
-          lesquelles je me forme actuellement :
+          Node.js, React et React Native. Cette expérience a renforcé mon
+          intérêt pour le développement front-end, en particulier les aspects
+          UX/UI, l’identité visuelle et le storytelling digital. Mon parcours en
+          communication me permet d’apporter une approche sensible et orientée
+          produit au développement, avec une attention particulière portée à
+          l’expérience utilisateur. Ce changement de voie s’est imposé
+          naturellement, notamment à travers mes collaborations passées avec des
+          équipes techniques sur des projets de refonte web. Je me forme
+          aujourd’hui sur des outils comme Next.js, TypeScript, MongoDB, Redux.
         </p>
         <br />
         <div className="logo">
